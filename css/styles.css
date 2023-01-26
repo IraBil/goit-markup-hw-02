@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Roboto', sans-serif;
+}
 .blu {
     color: #4D5AE5;
 }
@@ -9,13 +11,27 @@
 
 .logo {
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
 }
+
+.navig {
+    color: #2E2F42;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
 .section-order {
     background: rgba(46, 47, 66, 1);;
 }
 
 h1 {
     color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 .button {
