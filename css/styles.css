@@ -1,7 +1,15 @@
 
+.blu {
+    color: #4D5AE5;
+}
 
+.black {
+    color: #2E2F42;
+}
 
-
+.logo {
+    text-decoration: none;
+}
 .section-order {
     background: rgba(46, 47, 66, 1);;
 }
