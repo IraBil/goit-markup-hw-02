@@ -1,6 +1,10 @@
+
+
 body {
     font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
 }
+
 .blu {
     color: #4D5AE5;
 }
@@ -15,7 +19,7 @@ body {
 }
 
 .navig {
-    color: #2E2F42;;
+    color: #2E2F42;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
