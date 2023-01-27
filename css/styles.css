@@ -1,5 +1,4 @@
 
-
 body {
     font-family: 'Roboto', sans-serif;
     color: #2E2F42;
@@ -8,6 +7,7 @@ body {
 .blu {
     color: #4D5AE5;
 }
+
 
 .black {
     color: #2E2F42;
@@ -18,7 +18,8 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.navig {
+.navig li{
+    font-family: 'Roboto', sans-serif;
     color: #2E2F42;
     font-style: normal;
     font-weight: 500;
@@ -26,6 +27,15 @@ body {
     line-height: 24px;
 }
 
+.contakts {
+        font-family: 'Roboto', sans-serif;
+        color: #2E2F42;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+}
 .section-order {
     background: rgba(46, 47, 66, 1);;
 }
