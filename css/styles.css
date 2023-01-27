@@ -8,17 +8,24 @@ body {
     color: #4D5AE5;
 }
 
-
 .black {
     color: #2E2F42;
 }
 
+.wight {
+    color: #F4F4FD;
+}
 .logo {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
 }
 
-.navig li{
+.navig {
+    text-decoration: none;
     font-family: 'Roboto', sans-serif;
     color: #2E2F42;
     font-style: normal;
@@ -28,27 +35,84 @@ body {
 }
 
 .contakts {
-        font-family: 'Roboto', sans-serif;
-        color: #2E2F42;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 .section-order {
-    background: rgba(46, 47, 66, 1);;
+    background: rgba(46, 47, 66, 1);
 }
 
 h1 {
     color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+}
+
+button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4D5AE5;
+}
+
+button:hover,
+button:focus {
+    background-color: #4D5AE5;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+h3 {
+    text-decoration: none;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
 }
 
-.button {
-    background-color: #F4F4FD;
-    color: #4D5AE5;
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+}
+
+.footer {
+    background-color: #2E2F42;;
+}
+
+.title {
+    color: #2E2F42;;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.unline {
+   text-decoration: none;
+}
+
+.filter {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
