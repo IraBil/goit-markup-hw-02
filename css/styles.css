@@ -60,6 +60,10 @@ img {
     line-height: 1.5;
 }
 
+/* .container {
+ display: inline;
+} */
+
 .navig a:hover,
 .navig a:focus {
     color: var(--ocean);
