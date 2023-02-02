@@ -53,7 +53,7 @@ img {
     letter-spacing: 0.03em;
 }
 
-.navig a {
+.navig {
     color: var(--basic-black);
     font-weight: 500;
     font-size: 16px;
@@ -64,20 +64,25 @@ img {
  display: inline;
 } */
 
-.navig a:hover,
-.navig a:focus {
+.navig:hover,
+.navig:focus {
     color: var(--ocean);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
 }
 
-.contakts a {
-    color: var(--basic-black);
+.contakts {
+    color: var(--gray);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.contakts a:hover,
-.contakts a:focus {
+.contakts:hover,
+.contakts:focus {
     color: var(--ocean);
 }
 
@@ -101,6 +106,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .button-order:hover,
@@ -114,6 +120,12 @@ img {
 
 .title-h2 {
     text-decoration: none;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;           
 }
 
 .invisible {
@@ -132,9 +144,16 @@ img {
     color: var(--gray);
     font-size: 16px;
     line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.02em;
 }
 .profession {
     color: var(--gray);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1/5;
+    /* text-align: center; */
+    letter-spacing: 0.02em;
 }
 
 .footer {
@@ -159,6 +178,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .button:hover,
@@ -172,4 +192,7 @@ img {
 
 .filter {
     color: var(--gray);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
