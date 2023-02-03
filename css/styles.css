@@ -34,6 +34,7 @@ img {
     --ocean: #404BBF;
     --wight-button: #FFFFFF;
     --gray: #434455;
+    --wight-footer-text: #E7E9FC;
 }
 
 .black {
@@ -151,7 +152,7 @@ img {
     color: var(--gray);
     font-weight: 400;
     font-size: 16px;
-    line-height: 1/5;
+    line-height: 1.5;
     /* text-align: center; */
     letter-spacing: 0.02em;
 }
@@ -160,6 +161,13 @@ img {
     background-color: var(--basic-black);
 }
 
+.text-footer {
+    color: var(--wight-footer-text);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 .title {
     color: var(--basic-black);
     font-weight: 500;
